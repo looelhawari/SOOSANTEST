@@ -1,0 +1,51 @@
+<?php
+
+return [
+    // General
+    'add' => 'Add',
+    'edit' => 'Edit',
+    'view' => 'View',
+    'save' => 'Save',
+    'update' => 'Update',
+    'delete' => 'Delete',
+    'back' => 'Back',
+    'name' => 'Name',
+    'description' => 'Description',
+    'actions' => 'Actions',
+    'id' => 'ID',
+    'created_at' => 'Created At',
+    'updated_at' => 'Updated At',
+    'status' => 'Status',
+    'active' => 'Active',
+    'inactive' => 'Inactive',
+    'none' => 'None',
+    'not_provided' => 'Not Provided',
+    'confirm_delete' => 'Are you sure you want to delete this item?',
+    'no_entries' => 'No entries found.',
+    'back_to_list' => 'Back to List',
+    'create_first_entry' => 'Create the first entry',
+    'view_category' => 'View Category',
+    'owner' => 'Owner',
+
+    // Product Categories
+    'slug' => 'Slug',
+    'icon' => 'Icon',
+    'icon_url' => 'Icon URL',
+    'parent' => 'Parent Category',
+    'parent_category' => 'Parent Category',
+    'products' => 'Products',
+    'products_count' => 'Products Count',
+    'add_new_category' => 'Add New Category',
+    'edit_category' => 'Edit Category',
+    'category_details' => 'Category Details',
+    'sub_categories' => 'Sub-categories',
+    'no_sub_categories' => 'No sub-categories found.',
+    'products_in_category' => 'Products in this Category',
+    'no_products_in_category' => 'No products found in this category.',
+    'products_in_this_category' => 'Products in this Category',
+    'no_products_found_in_this_category' => 'No products found in this category.',
+
+    // Products
+    'price' => 'Price',
+    'stock' => 'Stock',
+];

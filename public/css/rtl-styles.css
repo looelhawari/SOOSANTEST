@@ -1,0 +1,154 @@
+/* RTL Styles for Arabic Language */
+[dir="rtl"] {
+    font-family: 'Inter', 'Noto Sans Arabic', Arial, sans-serif;
+}
+
+/* Navigation fixes */
+[dir="rtl"] .navbar-nav .nav-link {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+[dir="rtl"] .dropdown-menu {
+    left: auto;
+    right: 0;
+}
+
+/* Serial lookup form adjustments */
+[dir="rtl"] .lookup-form {
+    text-align: right;
+}
+
+[dir="rtl"] .serial-input,
+[dir="rtl"] .form-control {
+    direction: ltr;
+    text-align: left;
+}
+
+[dir="rtl"] .serial-input[type="text"] {
+    direction: rtl;
+    text-align: right;
+}
+
+[dir="rtl"] .serial-display {
+    direction: ltr;
+    text-align: center;
+}
+
+/* Button groups */
+[dir="rtl"] .btn-group {
+    direction: ltr;
+}
+
+/* Product cards */
+[dir="rtl"] .card-body {
+    text-align: right;
+}
+
+[dir="rtl"] .card-title {
+    text-align: right;
+}
+
+[dir="rtl"] .text-muted {
+    text-align: right;
+}
+
+/* Table fixes */
+[dir="rtl"] .table th,
+[dir="rtl"] .table td {
+    text-align: right;
+}
+
+[dir="rtl"] .table th:first-child,
+[dir="rtl"] .table td:first-child {
+    text-align: right;
+}
+
+/* Icon spacing */
+[dir="rtl"] .fas,
+[dir="rtl"] .far,
+[dir="rtl"] .fab {
+    margin-left: 0.5rem;
+    margin-right: 0;
+}
+
+[dir="rtl"] .me-2 {
+    margin-left: 0.5rem !important;
+    margin-right: 0 !important;
+}
+
+[dir="rtl"] .ms-2 {
+    margin-right: 0.5rem !important;
+    margin-left: 0 !important;
+}
+
+/* Breadcrumbs */
+[dir="rtl"] .breadcrumb-item+.breadcrumb-item::before {
+    float: right;
+    padding-left: 0;
+    padding-right: 0.5rem;
+    content: "‹";
+}
+
+/* Search input */
+[dir="rtl"] .input-group .form-control {
+    direction: rtl;
+}
+
+[dir="rtl"] .input-group .form-control::placeholder {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Fix for numbers and English text in Arabic context */
+[dir="rtl"] .serial-number,
+[dir="rtl"] .model-number,
+[dir="rtl"] .price,
+[dir="rtl"] .specifications-value {
+    direction: ltr;
+    display: inline-block;
+}
+
+/* Pagination */
+[dir="rtl"] .pagination {
+    direction: ltr;
+}
+
+/* Modal adjustments */
+[dir="rtl"] .modal-header {
+    text-align: right;
+}
+
+[dir="rtl"] .modal-body {
+    text-align: right;
+}
+
+/* Filter sidebar */
+[dir="rtl"] .filter-group {
+    text-align: right;
+}
+
+[dir="rtl"] .form-check {
+    text-align: right;
+}
+
+[dir="rtl"] .form-check-input {
+    margin-left: 0.25rem;
+    margin-right: 0;
+}
+
+/* Unit toggle buttons */
+[dir="rtl"] .unit-toggle {
+    direction: ltr;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    [dir="rtl"] .navbar-collapse {
+        text-align: right;
+    }
+
+    [dir="rtl"] .navbar-nav {
+        text-align: right;
+    }
+}
